@@ -1,0 +1,32 @@
+{
+  "name": "thinknetica-react-isharov",
+  "version": "1.0.0",
+  "description": "thinknetica-react-isharov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorSharov/thinknetica-react-isharov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorSharov/thinknetica-react-isharov/issues"
+  },
+  "homepage": "https://github.com/IgorSharov/thinknetica-react-isharov#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-dom-factories": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2"
+  }
+}
