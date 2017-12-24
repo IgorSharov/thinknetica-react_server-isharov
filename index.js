@@ -6,6 +6,8 @@ const cors = require('cors');
 const items = require('./data');
 
 application.use(cors());
+// slow velocity emulation
+// application.use(function(req,res,next) { setTimeout(next, 2000); });
 
 application.get('/', function(req, res) {
   res.json(items);
